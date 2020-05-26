@@ -1,0 +1,75 @@
+:root {
+    font-size: 24px;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background-size: cover;
+    background-image: url("../image/wallpaper.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 0 50px;
+    background-color: #262626;
+    min-height: 100px;
+}
+
+#page-header > * {
+    margin: 10px 0;
+}
+
+#page-title {
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+
+#nav-container {
+    width: 400px;
+}
+
+#nav-list {
+    padding: 0;
+    font-family: 'Francois One', sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-item > a {
+    text-decoration: none;
+}
+
+#contact-btn {
+    background-color: transparent;
+    text-transform: uppercase;
+    border: 2px solid white;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 120px;
+    height: 50px;
+}
+
+#contact-btn:hover {
+    background: grey;
+    color: black;
+    cursor: pointer;
+}
